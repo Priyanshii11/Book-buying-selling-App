@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:id="@+id/rec2card"
+    android:backgroundTint="@color/white"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    android:elevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/rec2Image"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/books" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rec2Title"
+            android:text="Title"
+            android:textAllCaps="true"
+            android:layout_below="@+id/rec2Image"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/acme"
+            android:textColor="@color/background"
+            android:layout_marginTop="160dp"
+            android:padding="6dp"
+            android:layout_marginStart="20dp"
+            tools:ignore="NotSibling" />
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="10dp"
+            android:id="@+id/recDesc"
+            android:layout_below="@+id/rec2Title"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="10dp"
+            tools:ignore="NotSibling" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="10dp"
+            android:id="@+id/rec0price"
+            android:layout_below="@+id/rec2Title"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="60dp"
+            tools:ignore="NotSibling" />
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/SPrice"
+            android:text="Price"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_toEndOf="@+id/rec2Title"
+            android:layout_below="@+id/rec2Image"
+            android:textColor="@color/background"
+            android:layout_marginTop="160dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="NotSibling" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

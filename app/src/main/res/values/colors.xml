@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0E0E0E</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="navigation_bar_color">#E19177</color> <!-- Replace with your desired color -->
+    <color name="background">#3992AA</color>
+
+
+</resources>

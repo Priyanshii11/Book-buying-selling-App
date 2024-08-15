@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    tools:context=".Login">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/booksell"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="210dp"
+            android:elevation="10dp"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/background"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:letterSpacing="0.02"
+                    android:layout_gravity="center"
+                    android:textSize="39dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text=" Welcome " />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginTop="4dp"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"
+                    android:letterSpacing="0.3"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:text=" Sign up to your account " />
+
+                <EditText
+                    android:id="@+id/SignName"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:scrollbars="horizontal"
+                    android:background="@drawable/background"
+                    android:hint="  Full Name"
+                    android:textColorHint="#636363"
+                    android:backgroundTint="#D8D8D8"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="3dp"
+                    android:padding="6dp"
+                    android:layout_marginTop="40dp"
+                    android:singleLine="true"
+                    android:textColor="#222121"
+                    android:textStyle="bold"
+                    android:inputType="textPersonName"
+
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:id="@+id/SignEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:scrollbars="horizontal"
+                    android:imeOptions="actionNext"
+                    android:background="@drawable/background"
+                    android:hint="  Email Address"
+                    android:backgroundTint="#D8D8D8"
+                    android:textStyle="bold"
+                    android:textColorHint="#636363"
+                    android:layout_marginTop="20dp"
+                    android:singleLine="true"
+                    android:inputType="textVisiblePassword"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:id="@+id/Phonenum"
+                    android:textColorHint="#636363"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:scrollbars="horizontal"
+                    android:background="@drawable/background"
+                    android:hint=" Phone Number"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#D8D8D8"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:id="@+id/SignPass"
+                    android:textColorHint="#636363"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:scrollbars="horizontal"
+                    android:background="@drawable/background"
+                    android:hint="  Password"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#D8D8D8"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"
+                    android:inputType="textVisiblePassword"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+
+                    android:textSize="20dp"/>
+
+
+                <Button
+                    android:id="@+id/signupbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/background"
+                    android:backgroundTint="#C96058"
+                    android:textColor="#090909"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textAlignment="center"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:text="Sign up"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#C5C1C1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:id="@+id/back2login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="05dp"
+                    android:letterSpacing="0.2"
+                    android:textSize="17dp"
+                    android:textColor="#C86058"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="  Already have an account? Log in " />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+

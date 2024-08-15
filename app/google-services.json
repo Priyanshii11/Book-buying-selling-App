@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "436449105526",
+    "firebase_url": "https://recyclereads-98ed5-default-rtdb.firebaseio.com",
+    "project_id": "recyclereads-98ed5",
+    "storage_bucket": "recyclereads-98ed5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436449105526:android:6b9d5920ad76822b94f157",
+        "android_client_info": {
+          "package_name": "com.example.mainproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt70sK9Fm0SDxTHhIcJKVG6DP3EXFUi7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

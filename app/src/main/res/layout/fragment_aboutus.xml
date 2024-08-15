@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    tools:context=".Navigation.Aboutus">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/acme"
+        android:padding="8dp"
+        android:text="About Developer"
+        android:textColor="#131313"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@color/white"
+        app:cardElevation="10dp"
+        android:elevation="20dp"
+        android:background="#FBFAFA"
+        app:cardCornerRadius="70dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text=" Priyanshii 👋 "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:padding="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text=" Student 📑: "
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:padding="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text=" Studying BCA'24 || Android App Developer "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="360dp"
+        app:cardElevation="10dp"
+        android:backgroundTint="@color/white"
+        android:elevation="20dp"
+        android:background="#FBFAFA"
+        app:cardCornerRadius="50dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text=" Connect with me: 🌐 "
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="120dp"
+            android:src="@drawable/img_5"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/instagram"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/download"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/github"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/imgg"
+            android:layout_gravity="center"
+            android:id="@+id/linkin"/>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+    </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

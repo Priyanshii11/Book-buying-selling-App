@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Navigation.Sell.UploadSell">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="@drawable/booksell" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="210dp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginStart="10sp"
+                app:cardCornerRadius="20dp"
+                android:background="@color/background"
+                android:layout_marginBottom="20dp"
+                app:cardElevation="20dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/background">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Upload Details"
+                        android:textSize="30sp"
+                        android:layout_marginTop="20dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/acme"/>
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        app:shapeAppearance="@style/roundedImageView"
+                        android:fitsSystemWindows="true"
+                        android:id="@+id/uploadimg"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/baseline_add_a_photo_24" />
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/progress"
+                        android:layout_gravity="center"
+                        android:indeterminateTint="@color/white"
+                        android:visibility="invisible"/>
+                    <EditText
+                        android:imeOptions="actionNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/bookname"
+                        android:scrollbars="horizontal"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="20sp"
+                        android:hint="ENTER BOOK NAME"
+                        android:gravity="start|center_vertical"
+                        android:textColorHint="#6C6969"
+                        android:background="@drawable/background"
+                        android:backgroundTint="@color/white" />
+
+
+                    <EditText
+                        android:imeOptions="actionNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:id="@+id/bookdesc"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="20sp"
+                        android:hint="ENTER BOOK DETAILS"
+                        android:gravity="start|center_vertical"
+                        android:textColorHint="#6C6969"
+                        android:background="@drawable/background"
+                        android:backgroundTint="@color/white" />
+
+                    <EditText
+                        android:imeOptions="actionNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/obookprice"
+                        android:padding="16dp"
+                        app:cornerRadius="20dp"
+                        android:scrollbars="horizontal"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="20sp"
+                        android:hint="ORIGINAL BOOK PRICE "
+                        android:inputType="number"
+                        android:gravity="start|center_vertical"
+                        android:textColorHint="#6C6969"
+                        android:background="@drawable/background"
+                        android:backgroundTint="@color/white" />
+
+                    <EditText
+                        android:imeOptions="actionDone"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/bookprice"
+                        android:padding="16dp"
+                        android:scrollbars="horizontal"
+                        app:cornerRadius="20dp"
+                        android:outlineProvider="background"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="20sp"
+                        android:hint="SellING PRICE"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:gravity="start|center_vertical"
+                        android:textColorHint="#6C6969"
+                        android:background="@drawable/background"
+                        android:backgroundTint="@color/white" />
+
+
+                    <Button
+                        android:id="@+id/sellbtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="20dp"
+                        android:text="UPLOAD DETAILS"
+                        android:textSize="18sp"
+                        android:shadowRadius="22"
+                        app:cornerRadius="20dp"
+                        android:backgroundTint="#D57777"
+                        android:textColor="#262C30"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="20sp"
+                        android:layout_gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
