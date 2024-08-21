@@ -1,7 +1,6 @@
 
 # 📚 Second-Hand Books 
 This app provides a platform for users to buy, sell, and rent second-hand books. 
-Whether you're looking to find a good deal on a book, clear out your bookshelf, or temporarily rent a book, our app offers a comprehensive solution.
 
 ---
 
@@ -24,17 +23,6 @@ Whether you're looking to find a good deal on a book, clear out your bookshelf, 
 - **Database**: Firebase Realtime Database/Firestore
 - **UI/UX Design**: Designed with user experience in mind, providing an intuitive and seamless interface.
 
----
-
-## 📱 Getting Started
-
-### Prerequisites
-
-- Android Studio
-- Firebase account
-- Basic knowledge of Java and Firebase
-
-  
 ---
 
 ## 📖 Usage
